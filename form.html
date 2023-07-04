@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A landing page of Strums: web-based application for music lover.">
+    <link rel="stylesheet" href="./form/form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="landing-page">
+        <header>
+            <div class="wrapper-left">
+                <div id="switch-mode" class="">
+                    <!-- <input id="check" type="checkbox"> -->
+                    <div id="toggle-span" class="slider"></div>
+                </div>
+            </div>
+            <picture>
+                <source id ="app-logo-source" media="(max-width:600px)" srcset="./assets/index/cd-black-lower.png">
+                <img id="app-logo" class="app-logo" src="./assets/index/cd-black.png" alt="a spinning black music disc" />
+            </picture>    
+            <h1>FORM</h1>
+            <p>Official app for songwriters and music enthusiasts</p>
+            <nav class="navbar">
+                <a href="./index.html">BACK</a>
+            </nav>
+        </header>
+        <main>
+            <section class="formbar">
+                <div id="grid-block-1" class="grid-rectangle wrapper-center">
+                    <h2>FORM</h2>
+                    <form id="form" class="wrapper-center">
+                        <label for="birthday">Username:</label>
+                        <input type="text" id="form-username"  placeholder="Username" required>
+                        <label for="birthday">Password:</label>
+                        <input type="password" id="form-password"  placeholder="Password" required>
+                        <label for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday">
+                        <button type="submit">SUBMIT</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="./form/form.js"></script>
+</body>
+</html>

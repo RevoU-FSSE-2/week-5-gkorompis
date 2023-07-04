@@ -3,7 +3,7 @@
 week-3-gkorompis created by GitHub Classroom
 
 ## Application Overview
-This project showcases my passion for music and combines it with my web development skills. Here, you can explore my original songs, and albums in a visually appealing and interactive manner. The web app is hosted by netlify on [Personal Music Page.](https://6493d89c0974752149105937--scintillating-taiyaki-093a99.netlify.app/). This application is designed to be fully responsive and supports multiple dimensions, including desktop and mobile phones. It is built using responsive design techniques and follows best practices to ensure an optimal user experience across various devices.
+Official application for songwriter and music enthusiats, where users can share their work and explore other artist's work. The web app is hosted by netlify on [Personal Music Page.](https://6493d89c0974752149105937--scintillating-taiyaki-093a99.netlify.app/). This application is designed to be fully responsive and supports multiple dimensions, including desktop and mobile phones. It is built using responsive design techniques and follows best practices to ensure an optimal user experience across various devices.
 
 ## Features
 
@@ -25,9 +25,18 @@ This project is built using the following technologies,
 HTML5: The structure and layout of the page are created using HTML5. <br/>
 CSS3: Pure CSS is used for styling the elements and creating engaging visual effects. <br/>
 Vanilla JavaScript: JavaScript is used to handle the interactivity and dynamic behavior of the page. <br/>
-Features Responsive Design: The music page is designed to be responsive, ensuring a seamless experience across different devices and screen sizes. <br/>
-Top Release Grid: Discover various top releases through a visually appealing grid layout. Clicking on an artcover will provide more details and information about each song. <br/>
-Album Showcase: Dive into my favorite albums showcased in an attractive and interactive manner. Clicking on an album reveals additional details and a tracklist.<br/>
+
+##Features
+This project includes features such as:
+1. custom font-face
+2. text shadows
+3. responsive background image
+4. responsive image using srcset
+5. assymetrical grid
+6. at least one advanced form element
+7. smooth animations and transitions
+8. good SEO and Accessbility (score = 90)
+9. create night mode using web storage api
 
 ## Setup and Usage
 

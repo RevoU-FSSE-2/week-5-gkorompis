@@ -10,25 +10,83 @@
 <body>
     <div class="landing-page">
         <header>
-            <img class="app-logo" src="./assets/index/cd-black.png" alt="a spinning black music disc"/>
+            <div class="wrapper-left">
+                <div id="switch-mode" class="">
+                    <!-- <input id="check" type="checkbox"> -->
+                    <div id="toggle-span" class="slider"></div>
+                </div>
+            </div>
+            <picture>
+                <source id ="app-logo-source" media="(max-width:600px)" srcset="./assets/index/cd-black-lower.png">
+                <img id="app-logo" class="app-logo" src="./assets/index/cd-black.png" alt="a spinning black music disc" />
+            </picture>    
             <h1>STRUMS</h1>
             <p>Official app for songwriters and music enthusiasts</p>
+            <nav class="navbar">
+                <a href="./form.html">SIGN IN</a>
+            </nav>
         </header>
         <main>
             <section class="menubar">
-                <div id="grid-block-1">
-                    <button>sign in </button>
+                <div id="grid-block-1" class="grid-rectangle">
+                    <h2>#rock</h2>
                 </div>
-                <div id="grid-block-2"><img src="./assets/index/artcover/0.png"/></div>
-                <div id="grid-block-3"><img src="./assets/index/artcover/1.png" /></div>
-                <div id="grid-block-4"><img src="./assets/index/artcover/8.png" /></div>
-                <!-- <div id="grid-block-5">5</div> -->
-                <div id="grid-block-6"><img src="./assets/index/artcover/2.png" /></div>
-                <div id="grid-block-7"><img src="./assets/index/artcover/4.png" /></div>
-                <div id="grid-block-8"><img src="./assets/index/artcover/5.png" /></div>
-                <div id="grid-block-9"><img src="./assets/index/artcover/6.png" /></div>
+                <div id="grid-block-2" class="grid-square" >
+                    <figure id="figure-block-2" class="auto-center">
+                        <img src="./assets/index/artcover/rock-0.png" alt="a woman in black and pink background"/>
+                    </figure>
+                </div>
+                <div id="grid-block-3" class="grid-square">
+                    <figure class="auto-center">
+                        <img src="./assets/index/artcover/rock-1.png" alt="a guy with guitar in blue wall background"/>
+                    </figure>
+                </div>
+                <div id="grid-block-4" class="grid-rectangle"><h2>#dance</h2></div>
+                <div id="grid-block-5" class="grid-square">
+                    <figure class="auto-center">
+                        <img src="./assets/index/artcover/dance-0.png" alt="a pretty woman lighting up matches" />
+                    </figure>
+                </div>
+                <div id="grid-block-6" class="grid-square">
+                    <figure class="auto-center">
+                        <img src="./assets/index/artcover/dance-1.png" alt="a woman laying in yellow background"/>
+                    </figure>
+                </div>
+                <div id="grid-block-7" class="grid-square">
+                    <figure class="auto-center">
+                        <img src="./assets/index/artcover/dance-2.png" alt="a woman sitting in black background"/>
+                    </figure>
+                </div>
+                <div id="grid-block-8" class="grid-rectangle"><h2>#punk-pop</h2></div>
+                <div id="grid-block-9" class="grid-square">
+                    <figure id="figure-block-2" class="auto-center">
+                        <img src="./assets/index/artcover/punk-0.png" alt="four people in abstract background that has word riot all over the place" />
+                    </figure>
+                </div>
+
+                <!-- <div id="grid-block-1"> -->
+                    <!-- <button>sign in </button> -->
+            
+                <!-- <div id="grid-block-4">4</div> -->
+                <!-- <div id="grid-block-2"></div> -->
+                <!-- <div id="grid-block-3">
+                    <div class="login-form">
+                        <h2>Login</h2>
+                        <form>
+                            <input type="text" placeholder="Username" required>
+                            <input type="password" placeholder="Password" required>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div> -->
+                <!-- <div id="grid-block-4">4</div> -->
+                
+                <!-- <div id="grid-block-5">5</div>
+                <div id="grid-block-6">6</div>
+                <div id="grid-block-7">7</div> -->
             </section>
         </main>
     </div>
+    <script src="./index/index.js"></script>
 </body>
 </html>

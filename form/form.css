@@ -52,6 +52,13 @@ h1{
     justify-content: start;
     width: 100%;
 }
+.wrapper-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
 #switch-mode{
     display: flex;
     align-items: center;
@@ -68,39 +75,6 @@ h1{
     height: 27px;
     cursor: pointer;
 }
-/* .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #353333;
-    transition: 0.4s;
-    border-radius: 34px;
-} */
-
-/* .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    transition: 0.4s;
-    border-radius: 50%;
-} */
-
-/* input:checked+.slider {
-    background-color: #bfc74d;
-} */
-
-/* input:checked+.slider:before {
-    transform: translateX(26px);
-} */
-
-
 .landing-page > header {
     /* background-color: yellow; */
     padding: 1vh;
@@ -163,70 +137,51 @@ picture > img {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    padding-right: 3vw;
 }
-.menubar {
+.formbar {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 11vh);
     grid-gap: 3px;
     padding-top: 5vh;
     padding-left: 2vh;
 }
 @media only screen and (max-width:120vh) and (min-width:109vh) {
-    .menubar {
+    .formbar {
         display: grid;
         grid-template-columns: 1fr;
         /* background-color: #d1d36d; */
         grid-template-rows: repeat(9, 20vh);
     }
-    .menubar > div {
+    .formbar > div {
         grid-column: span 1;
         grid-row: span 1;
     }
  
 }
 @media only screen and (max-width:600px) {
-    .menubar {
+    .formbar {
             display: grid;
             grid-template-columns: 1fr;
             /* background-color: #d1d36d; */
-            grid-template-rows: repeat(9, 20vh);
+            /* grid-template-rows: repeat(9, 20vh); */
         } 
-    .menubar>div {
-        grid-column: span 1;
-        grid-row: span 1;
+    .formbar>div {
+        grid-column: 1fr;
+        /* grid-row: span 1; */
     }
     .app-logo{
         height: 30vh;
     }
+    #grid-block-1 {
+        grid-row: span 3;
+    }
 }
 
-figure > img {
-    /* width: 100%; */
-    height: 19vh;
-    width: 19vh;
-    border-radius: 5px;
-    box-shadow: 0px 5px 5px rgb(255, 255, 255);
-}
 
-.menubar > div {
-    display: flex;
-    justify-content: center;
-    /* border: solid 1px; */
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* align-items: center; */
-}
 
-.menubar > div > img {
-    width: 100%;
-    height: 100%;
-}
 
-.grid-square {
-    grid-column: span 1;
-    grid-row: span 2;
-}
 .grid-rectangle{
     grid-column: span 2;
     grid-row: span 2;
@@ -238,71 +193,35 @@ figure > img {
 }
 .grid-rectangle > h2 {
     font-size: 8vh;
+    margin: 20px;
     color: var(--banner-font-color);
     text-shadow: 3px 3px #424141;
     
 }
-
-
-#grid-block-2{
-    background-image: url('../assets/index/artcover/rock-0.png');
-    background-size: cover;
+#grid-block-1{
+    grid-column: span 2;
+    grid-row: 1 / span 8;
 }
-#grid-block-3 {
-    background-image: url('../assets/index/artcover/rock-1.png');
-    background-size: cover;
+#form > * {
+    margin: 3px;
+    color: var(--banner-font-color)
 }
-#grid-block-5 {
-    background-image: url('../assets/index/artcover/dance-0.png');
-    background-size: cover;
-}
-#grid-block-6 {
-    background-image: url('../assets/index/artcover/dance-1.png');
-    background-size: cover;
-}
-#grid-block-7 {
-    background-image: url('../assets/index/artcover/dance-2.png');
-    background-size: cover;
-}
-#grid-block-9 {
-    background-image: url('../assets/index/artcover/punk-0.png');
-    background-size: cover;
-}
-
-
-.login-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 300px;
-}
-
-.login-form h2 {
-    text-align: center;
-    color: #333;
-}
-
-.login-form input[type="text"],
-.login-form input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-.login-form button {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
+#form > button {
     border: none;
-    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    margin: 70px;
+    background-color: var(--bg-color);
+    color: var(--text-font-color);
     cursor: pointer;
+    font-size: 20px;
+}
+#form > input {
+    border: none;
+    height: 35px;
+    width: 200px;
+    background-color: var(--bg-color);
+    color: var(--text-font-color)
 }
 
-.login-form button:hover {
-    background-color: #45a049;
-}
+

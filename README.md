@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/6H2sAzcR)
-# week-3-gkorompis
-week-3-gkorompis created by GitHub Classroom
+# week-4-gkorompis
+week-4-gkorompis created by GitHub Classroom
 
 ## Application Overview
 Official application for songwriter and music enthusiats, where users can share their work and explore other artist's work. The web app is hosted by netlify on [Personal Music Page.](https://6493d89c0974752149105937--scintillating-taiyaki-093a99.netlify.app/). This application is designed to be fully responsive and supports multiple dimensions, including desktop and mobile phones. It is built using responsive design techniques and follows best practices to ensure an optimal user experience across various devices.

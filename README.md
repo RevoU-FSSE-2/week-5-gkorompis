@@ -3,7 +3,7 @@
 week-4-gkorompis created by GitHub Classroom
 
 ## Application Overview
-Official application for songwriter and music enthusiats, where users can share their work and explore other artist's work. The web app is hosted by netlify on [Personal Music Page.](https://6493d89c0974752149105937--scintillating-taiyaki-093a99.netlify.app/). This application is designed to be fully responsive and supports multiple dimensions, including desktop and mobile phones. It is built using responsive design techniques and follows best practices to ensure an optimal user experience across various devices.
+Official application for songwriter and music enthusiats, where users can share their work and explore other artist's work. The web app is hosted by netlify on [STRUMS.](https://silver-blancmange-33228a.netlify.app/). This application is designed to be fully responsive and supports multiple dimensions, including desktop and mobile phones. It is built using responsive design techniques and follows best practices to ensure an optimal user experience across various devices.
 
 ### Features
 

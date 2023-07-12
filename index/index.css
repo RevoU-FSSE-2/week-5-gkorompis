@@ -137,17 +137,19 @@ picture > img {
 
 .navbar {
     background-color: var(--banner-bg-color);
-    width: 130px;
-    height: 50px;
+    width: 350px;
+    height: 13vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5vh;
+    margin: 3vh;
+    border-radius: 5px;
 
 }
 .navbar a {
     color: var(--banner-font-color);
     text-decoration: none;
+    font-size: 3.9vh;
 }
 
 /* main section */
@@ -292,6 +294,7 @@ figure > img {
     border-radius: 4px;
     box-sizing: border-box;
 }
+
 
 .login-form button {
     width: 100%;

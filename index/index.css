@@ -137,17 +137,19 @@ picture > img {
 
 .navbar {
     background-color: var(--banner-bg-color);
-    width: 130px;
-    height: 50px;
+    width: 350px;
+    height: 13vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5vh;
+    margin: 3vh;
+    border-radius: 5px;
 
 }
 .navbar a {
     color: var(--banner-font-color);
     text-decoration: none;
+    font-size: 4vh;
 }
 
 /* main section */

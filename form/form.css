@@ -216,12 +216,13 @@ picture > img {
     cursor: pointer;
     font-size: 20px;
 }
-#form > input {
+ #form > input {
     border: none;
     height: 35px;
     width: 200px;
     background-color: var(--bg-color);
     color: var(--text-font-color)
+    /* color: black; */
 }
 
 

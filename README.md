@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/6H2sAzcR)
-# week-4-gkorompis
-week-4-gkorompis created by GitHub Classroom
+# week-5-gkorompis
+week-5-gkorompis created by GitHub Classroom
 
 <img width="1434" alt="Screen Shot 2023-07-13 at 10 50 11" src="https://github.com/RevoU-FSSE-2/week-4-gkorompis/assets/52250424/37323e17-2270-49e6-ae60-23add1dba8a7">
 
@@ -27,7 +27,7 @@ Code documentation is managed by committing and pushing to this github repositor
 ```
 #prepare project's codes
 git clone https://github.com/RevoU-FSSE-2/week-4-gkorompis.git
-cd week-4-gkorompis
+cd week-5-gkorompis
 git add .
 
 #review changes

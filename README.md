@@ -2,6 +2,8 @@
 # week-4-gkorompis
 week-4-gkorompis created by GitHub Classroom
 
+<img width="1434" alt="Screen Shot 2023-07-13 at 10 50 11" src="https://github.com/RevoU-FSSE-2/week-4-gkorompis/assets/52250424/37323e17-2270-49e6-ae60-23add1dba8a7">
+
 ## Application Overview
 Official application for songwriter and music enthusiats, where users can share their work and explore other artist's work. The web app is hosted by netlify on [STRUMS.](https://strums.site). This application is designed to be fully responsive and supports multiple dimensions, including desktop and mobile phones. It is built using responsive design techniques and follows best practices to ensure an optimal user experience across various devices.
 

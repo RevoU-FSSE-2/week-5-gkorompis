@@ -3,7 +3,7 @@
 week-4-gkorompis created by GitHub Classroom
 
 ## Application Overview
-Official application for songwriter and music enthusiats, where users can share their work and explore other artist's work. The web app is hosted by netlify on [STRUMS.](https://silver-blancmange-33228a.netlify.app/). This application is designed to be fully responsive and supports multiple dimensions, including desktop and mobile phones. It is built using responsive design techniques and follows best practices to ensure an optimal user experience across various devices.
+Official application for songwriter and music enthusiats, where users can share their work and explore other artist's work. The web app is hosted by netlify on [STRUMS.](https://strums.site). This application is designed to be fully responsive and supports multiple dimensions, including desktop and mobile phones. It is built using responsive design techniques and follows best practices to ensure an optimal user experience across various devices.
 
 ### Features
 
@@ -20,9 +20,8 @@ The application has been tested and verified to work seamlessly on the following
 
 Please note that while the application strives to provide a consistent experience across devices, some features or visual elements may vary slightly depending on the screen size and capabilities of the device being used.
 
-## CI/CD
-
-### github repository 
+## Code Documentation
+Code documentation is managed by committing and pushing to this github repository.
 ```
 #prepare project's codes
 git clone https://github.com/RevoU-FSSE-2/week-4-gkorompis.git
@@ -40,10 +39,26 @@ git remote set-url origin https://github.com/RevoU-FSSE-2/week-4-gkorompis.git
 git push origin main
 ```
 
-### sync deployment
-netlify
-### neat branching
-git merge
+## Version Control
+Version control is managed by committing new changes inside new branch and then merging branch's commit by applying pull request via github web interface.
+```
+#creating new branch
+git checkout -n <new branch name>
 
+#switching to existing branch
+git checkout -n <existing branch name>
+```
 
+## CI/CD Deployment
+Continous deployment is achieved by importing existing project in github to netlify. 
+1. Connect to Git provider
+2. Pick a repository
+3. Site configuration and deploy
+
+### DNS Management
+Domain is provided by Niagahoster and managed through Cloudflare.
+1. Login to Cloudflare, and then adding new site
+2. Login to Niaghoster and then replacing registrar nameserver of the selected domain by cloudflare nameserver.
+3. After Cloudflare succeeded connecting to the domain, managed DNS record by adding cname provided by Netlify into the record list.
+4. Finally, adding the domain to the Netlify.
 

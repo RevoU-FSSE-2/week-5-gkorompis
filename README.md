@@ -56,7 +56,7 @@ Continous deployment is achieved by importing existing project in github to netl
 1. Connect to Git provider
 2. Pick a repository
 3. Site configuration and deploy
-4. <img width="1111" alt="Screen Shot 2023-07-13 at 10 27 05" src="https://github.com/RevoU-FSSE-2/week-4-gkorompis/assets/52250424/598c6f64-52dc-48be-aa92-43a935e5b432">
+<img width="1111" alt="Screen Shot 2023-07-13 at 10 27 05" src="https://github.com/RevoU-FSSE-2/week-4-gkorompis/assets/52250424/598c6f64-52dc-48be-aa92-43a935e5b432">
 
 ## DNS Management
 Domain is provided by Niagahoster and managed through Cloudflare.

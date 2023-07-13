@@ -57,19 +57,24 @@ Continous deployment is achieved by importing existing project in github to netl
 2. Pick a repository
 3. Site configuration and deploy
 <img width="1111" alt="Screen Shot 2023-07-13 at 10 27 05" src="https://github.com/RevoU-FSSE-2/week-4-gkorompis/assets/52250424/598c6f64-52dc-48be-aa92-43a935e5b432">
- <br />
+<br />
+<br />
+<br />
 
 ## DNS Management
 Domain is provided by Niagahoster and managed through Cloudflare.
 1. Login to Cloudflare, and then adding new site
 <img width="718" alt="Screen Shot 2023-07-13 at 10 32 06" src="https://github.com/RevoU-FSSE-2/week-4-gkorompis/assets/52250424/c72ad79a-b64d-432c-9cca-04108b295772">
 <br />
+ <br />
 2. Login to Niaghoster and then replacing registrar nameserver of the selected domain by cloudflare nameserver.
 <img width="747" alt="Screen Shot 2023-07-13 at 10 44 09" src="https://github.com/RevoU-FSSE-2/week-4-gkorompis/assets/52250424/ea388005-d189-4977-951c-5b39874aeb18">
- <br />
+<br />
+<br />
 3. After Cloudflare succeeded connecting to the domain, managed DNS record by adding cname provided by Netlify into the record list.
 <img width="1100" alt="Screen Shot 2023-07-13 at 10 37 02" src="https://github.com/RevoU-FSSE-2/week-4-gkorompis/assets/52250424/411d7265-dfd7-4a84-a6b6-fe89dfe2788d">
- <br />
+<br />
+<br />
 4. Finally, adding the domain to the Netlify.
 <img width="1094" alt="Screen Shot 2023-07-13 at 10 48 33" src="https://github.com/RevoU-FSSE-2/week-4-gkorompis/assets/52250424/60284332-f82b-46ef-bd8a-190d0f9dcf8b">
 

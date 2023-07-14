@@ -117,7 +117,7 @@ picture > img {
     align-items: center;
     justify-content: center;
     margin: 5vh;
-
+    border-radius: 4px;
 }
 .navbar a {
     color: var(--banner-font-color);
@@ -131,7 +131,6 @@ picture > img {
     }
         
 }
-
 .landing-page>main {
     /* background-color: #eeeded; */
     height: 100vh;
@@ -158,6 +157,9 @@ picture > img {
         grid-column: span 1;
         grid-row: span 1;
     }
+        main {
+            margin-bottom: 70vh;
+        }
  
 }
 @media only screen and (max-width:600px) {
@@ -177,6 +179,9 @@ picture > img {
     #grid-block-1 {
         grid-row: span 3;
     }
+        main {
+            margin-bottom: 30vh;
+        }
 }
 
 
@@ -189,6 +194,7 @@ picture > img {
     justify-content: center;
     align-items: center;
     background-color: var(--banner-bg-color);
+    border-radius: 4px;
     
 }
 .grid-rectangle > h2 {
@@ -215,13 +221,15 @@ picture > img {
     color: var(--text-font-color);
     cursor: pointer;
     font-size: 20px;
+    border-radius: 3px;
 }
  #form > input {
     border: none;
     height: 35px;
     width: 200px;
     background-color: var(--bg-color);
-    color: var(--text-font-color)
+    color: var(--text-font-color);
+    border-radius: 3px;
     /* color: black; */
 }
 
@@ -258,5 +266,5 @@ li {
 
 .grid-col-5 {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }

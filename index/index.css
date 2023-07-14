@@ -173,6 +173,7 @@ picture > img {
     grid-gap: 3px;
     padding-top: 5vh;
     padding-left: 2vh;
+    transition: 1s;
 }
 @media only screen and (max-width:120vh) and (min-width:109vh) {
     .menubar {
@@ -185,13 +186,16 @@ picture > img {
         grid-column: span 1;
         grid-row: span 1;
     }
+        main {
+            margin-bottom: 100vh;
+        }
  
 }
 @media only screen and (max-width:600px) {
     .menubar {
             display: grid;
             grid-template-columns: 1fr;
-            /* background-color: #d1d36d; */
+            /* background-color: #363620; */
             grid-template-rows: repeat(9, 20vh);
         } 
     .menubar>div {
@@ -201,6 +205,14 @@ picture > img {
     .app-logo{
         height: 30vh;
     }
+    main {
+        margin-bottom: 100vh;
+    }
+        /* .grid-col-5 {
+            display: grid;
+            grid-template-columns: auto;
+        } */
+   
 }
 
 figure > img {
@@ -236,6 +248,7 @@ figure > img {
     justify-content: center;
     align-items: center;
     background-color: var(--banner-bg-color);
+    transition: 2s;
     
 }
 .grid-rectangle > h2 {
@@ -243,6 +256,9 @@ figure > img {
     color: var(--banner-font-color);
     text-shadow: 3px 3px #424141;
     
+}
+.grid-rectangle:hover > h2{
+    font-size: 10vh;
 }
 
 
@@ -301,5 +317,5 @@ li {
 } 
 .grid-col-5{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }

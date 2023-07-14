@@ -2,7 +2,7 @@
 # week-5-gkorompis
 week-5-gkorompis created by GitHub Classroom
 
-<img width="1250" alt="desktop-view-home-light" src="https://github.com/RevoU-FSSE-2/week-5-gkorompis/assets/52250424/7e54624c-1020-4afe-ad84-94818f47e4c9">
+<img width="1425" alt="desktop-view-home-darkmode" src="https://github.com/RevoU-FSSE-2/week-5-gkorompis/assets/52250424/a4ed9be9-0456-479c-910d-2aae6de25d4f">
 
 ## Application Overview
 Official application to stream music with anyone from anywhere. The web app uses multiple page html file and is hosted by netlify on [STRUMS.](https://strums.site). This application is designed to be fully responsive and supports multiple dimensions, including desktop and mobile phones. It is built using responsive design techniques and follows best practices to ensure an optimal user experience across various devices.
